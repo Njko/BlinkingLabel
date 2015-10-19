@@ -489,7 +489,7 @@
 			baseConfigurationReference = 2A8E29FD446670299ECFC470 /* Pods-BlinkingLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nicolas LINARD (V58G4565KX)";
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = BlinkingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -503,7 +503,8 @@
 			baseConfigurationReference = 815DC9FF73212BE4E3090CE3 /* Pods-BlinkingLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nicolas LINARD (V58G4565KX)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = BlinkingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
